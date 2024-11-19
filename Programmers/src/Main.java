@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Solution1 sol1 = new Solution1();
-        System.out.println(sol1.solution(10,5));
-        System.out.println(sol1.solution(7,2));
+        Solution2 sol = new Solution2();
+        System.out.println(sol.solution(10,5));
+        System.out.println(sol.solution(7,2));
     }
 }
