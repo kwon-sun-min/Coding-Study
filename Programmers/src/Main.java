@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Solution16 sol = new Solution16();
+        Solution17 sol = new Solution17();
 
-        int[] input = {1 ,2,3,4,5};
+        int[] input1 = {1,2};
+        int[] input2 = {-1,2};
+        int[] input3 = {-1,-2};
+        int[] input4 = {1,-2};
 
-        int[] output = sol.solution(input);
-
-        for (int i = 0; i < output.length; i++) {
-            System.out.println(output[i]);
-        }
-        
-        
+        System.out.println(sol.solution(input1));
+        System.out.println(sol.solution(input2));
+        System.out.println(sol.solution(input3));
+        System.out.println(sol.solution(input4));        
     }
 }
