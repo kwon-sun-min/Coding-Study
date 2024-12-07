@@ -1,12 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Solution20 sol = new Solution20();
+        Solution21 sol = new Solution21();
 
-        String input1 = "hello";
-        String output1 = sol.solution(input1, 3);
+        String input1 = "jaron";
+        String output1 = sol.solution(input1);
 
         System.out.println(output1);
 
+        String input2 = "bread";
+        String output2 = sol.solution(input2);
+
+        System.out.println(output2);
 
     }
 }
