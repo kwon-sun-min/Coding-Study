@@ -1,16 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-        Solution22 sol = new Solution22();
+        Solution23 sol = new Solution23();
 
-        String input1 = "jaron";
-        String output1 = sol.solution(input1, "j");
+        int[] output1 = sol.solution(1,2,3,4);
 
-        System.out.println(output1);
+        for (int i = 0; i < output1.length; i++) 
+        {
+            System.out.println(output1[i]);
+        }
 
-        String input2 = "bread";
-        String output2 = sol.solution(input2, "b");
 
-        System.out.println(output2);
+        int[] output2 = sol.solution(9,2,1,3);
+
+        for (int i = 0; i < output2.length; i++) 
+        {
+            System.out.println(output2[i]);
+        }
+
+        
 
     }
 }
