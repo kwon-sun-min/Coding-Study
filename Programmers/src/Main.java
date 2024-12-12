@@ -1,17 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Solution25 sol = new Solution25();
+        Solution26 sol = new Solution26();
 
-        String[] s1= {"a", "b", "c"};
-        String[] s2= {"com", "b", "d", "p", "c"};
+        System.out.println(sol.solution(144));
+        System.out.println(sol.solution(976));
+        System.out.println(sol.solution(1));
 
-        int output = sol.solution(s1, s2);
-        System.out.println(output);
 
-        String[] s3= {"n", "omg"};
-        String[] s4= {"m", "dot"};
-        
-        System.out.println(sol.solution(s3, s4));
 
         
     }
