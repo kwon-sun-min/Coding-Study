@@ -1,22 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        Solution27 sol = new Solution27();
+        Solution28 sol = new Solution28();
 
-        int[] input1 = {1, 2, 3, 4, 5};
-        int[] output1 = sol.solution(input1);
+        int[] array1 = {1, 1, 2, 3, 4, 5};
+        System.out.println(sol.solution(array1, 1));	
 
-        for (int i = 0; i < output1.length; i++) 
-        {
-            System.out.println(output1[i]);
-        }
+        int[] array2 = {0, 2, 3, 4};
+        System.out.println(sol.solution(array2, 1));	
 
-        
-        int[] input2 = {1, 2, 100, -99, 1, 2, 3};
-        int[] output2 = sol.solution(input2);
 
-        for (int i = 0; i < output2.length; i++) 
-        {
-            System.out.println(output2[i]);
-        }
     }
 }
