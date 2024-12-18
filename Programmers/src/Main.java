@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Solution31 sol = new Solution31();
+        Solution32 sol = new Solution32();
 
-        System.out.println(sol.solution("bus"));
-        System.out.println(sol.solution("nice to meet you"));
-        System.out.println(sol.solution("buaa"));
+        int[] input1 = {1, 2, 7, 10, 11};
+        System.out.println(sol.solution(input1));
+
+        int[] input2 = {9, -1, 0};
+        System.out.println(sol.solution(input2));
 
 
     }
