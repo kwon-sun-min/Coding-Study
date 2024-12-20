@@ -1,20 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Solution33 sol = new Solution33();
+        Solution34 sol = new Solution34();
+        
+        int[] input1 = {0,0,0,1,1,999};
 
-
-        for (int i = 0; i < (int)Math.ceil(10/2.0); i++) 
-        {
-            System.out.println(sol.solution(10)[i]);
-        }
-
-        System.out.println();
-
-        for (int i = 0; i < (int)Math.ceil(15/2.0); i++) 
-        {
-            System.out.println(sol.solution(15)[i]);
-        }
-
-
+        System.out.println(sol.solution(input1));
+       
     }
 }
