@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Solution34 sol = new Solution34();
+        Solution36 sol = new Solution36();
+        System.out.println(sol.solution(6));
+        System.out.println(sol.solution(10));
+        System.out.println(sol.solution(4));
         
-        int[] input1 = {0,0,0,1,1,999};
-
-        System.out.println(sol.solution(input1));
        
     }
 }
