@@ -1,8 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Solution38 sol = new Solution38();
-        System.out.println(sol.solution(150000));
-        System.out.println(sol.solution(580000));
+        Solution39 sol = new Solution39();
+        for (int i = 0; i < 2; i++) 
+        {
+            System.out.println(sol.solution(5500)[i]);
+        }
+
+        for (int i = 0; i < 2; i++) 
+        {
+            System.out.println(sol.solution(15000)[i]);
+        }
 
         
        
