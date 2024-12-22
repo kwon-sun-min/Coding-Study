@@ -1,17 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Solution39 sol = new Solution39();
-        for (int i = 0; i < 2; i++) 
-        {
-            System.out.println(sol.solution(5500)[i]);
-        }
+        Solution40 sol = new Solution40();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-        for (int i = 0; i < 2; i++) 
-        {
-            System.out.println(sol.solution(15000)[i]);
-        }
+        sol.solution(n);
+        sc.close();
 
-        
-       
     }
 }
