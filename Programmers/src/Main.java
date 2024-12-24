@@ -1,13 +1,12 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Solution40 sol = new Solution40();
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        Solution41 sol = new Solution41();
 
-        sol.solution(n);
-        sc.close();
+        System.out.println(sol.solution(23));
+        System.out.println(sol.solution(51));
+        System.out.println(sol.solution(100));
+
+
 
     }
 }
