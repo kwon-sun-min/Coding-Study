@@ -19,7 +19,6 @@ class Solution42 {
       }
 
 
-
       return answer;
   }
 }
