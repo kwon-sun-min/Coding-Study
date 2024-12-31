@@ -1,15 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        Solution48 sol = new Solution48();
+        Solution49 sol = new Solution49();
 
-        int[] input1 = {1,2,3,4};
-        System.out.println(sol.solution(input1, 2));
-        
-        int[] input2 = {1,2,3,4,5,6};
-        System.out.println(sol.solution(input2, 5));
+        int[] input1 = {1, 2, 3};
+        int[] output1 = sol.solution(input1, "right");
 
-        int[] input3 = {1,2,3};
-        System.out.println(sol.solution(input3, 3));
+        for (int i = 0; i < output1.length; i++) 
+        {
+            System.out.println(output1[i]);
+        }
+
+        int[] input2 = {4, 455, 6, 4, -1, 45, 6};
+        int[] output2 = sol.solution(input2, "left");
+
+        for (int i = 0; i < output2.length; i++) 
+        {
+            System.out.println(output2[i]);
+        }
         
         
 
