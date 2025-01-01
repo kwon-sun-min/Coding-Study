@@ -18,8 +18,7 @@ public class Main {
             System.out.println(output2[i]);
         }
         
-        
-
+    
     }
 
 }
