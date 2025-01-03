@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Solution51 sol = new Solution51();
+        Solution52 sol = new Solution52();
 
-        System.out.println(sol.solution(10));
-        System.out.println(sol.solution(15));
+        System.out.println(sol.solution(3628800));
+        System.out.println(sol.solution(7));
 
 
         
