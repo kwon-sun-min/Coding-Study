@@ -3,7 +3,7 @@ public class Main {
         Solution53 sol = new Solution53();
         
         String input1 = "cccCCC";
-        String input2 = "abCdEfghIJ";
+        String input2 = "abCdEfgIJ";
         
         String output1 = sol.solution(input1);
         String outpu2  = sol.solution(input2);
