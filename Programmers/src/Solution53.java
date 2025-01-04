@@ -9,6 +9,7 @@ class Solution53 {
                 answer += Character.toUpperCase(my_string.charAt(i));
             }
         }
+        
         return answer;
     }
 }
