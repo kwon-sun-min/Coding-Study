@@ -1,7 +1,10 @@
+import java.util.LinkedList;
+
 public class Main {
     public static void main(String[] args) {
-        Solution56 sol = new Solution56();
-        System.out.println(sol.solution("people"));
-        System.out.println(sol.solution("We are the world"));
+        Solution57 sol = new Solution57();
+        LinkedList<Integer> output1 = sol.solution(10000);
+        System.out.println(output1.toString());
+        System.out.println(sol.solution(420).toString());
     }
 }
