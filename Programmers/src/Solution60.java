@@ -11,12 +11,6 @@ class Solution60 {
       }
       return answer;
   }
-  public static void main(String[] args) {
-    Solution60 sol = new Solution60();
-
-    int[] input1 = {180, 120, 140};
-    System.out.println(sol.solution60(input1, 190));
-
-  }
+  
 }
 
