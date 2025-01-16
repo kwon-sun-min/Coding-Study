@@ -23,8 +23,6 @@ class Solution52 {
 
   public int factorial(int n)
   {
-    int result = 1;
-
 
     if(n > 1)
     {
