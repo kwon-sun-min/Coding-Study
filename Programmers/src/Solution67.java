@@ -12,7 +12,7 @@ class Solution67 {
       numbers = numbers.replace("nine", "9");
       numbers = numbers.replace("zero", "0");
 
-      answer = Integer.parseInt(numbers);
+      answer = Long.parseLong(numbers);
 
       return answer;
   }
