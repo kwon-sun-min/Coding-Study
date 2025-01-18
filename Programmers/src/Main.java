@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Solution69 sol = new Solution69();
-        System.out.println(sol.solution("hello"));
+        Solution70 sol = new Solution70();
+        System.out.println(sol.solution(24));
     }
 }
