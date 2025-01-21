@@ -1,10 +1,10 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        Solution73 sol = new Solution73();
+        Solution75 sol = new Solution75();
 
-        System.out.println(sol.solution(29183, 1));
-        System.out.println(sol.solution(232443, 4));
-        System.out.println(sol.solution(123456, 7));
+        System.out.println(sol.solution("ABDC"));
 
 
 
