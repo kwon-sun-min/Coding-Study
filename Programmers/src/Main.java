@@ -1,10 +1,9 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-        Solution75 sol = new Solution75();
+        Solution76 sol = new Solution76();
+        String[] input1 = {"aya", "yee", "u", "maa", "wyeoo"};
 
-        System.out.println(sol.solution("ABDC"));
+        System.out.println(sol.solution(input1));
 
 
 
