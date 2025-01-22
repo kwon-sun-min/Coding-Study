@@ -14,7 +14,7 @@ class Solution76 {
           if(babbling[i].charAt(j) != '@')
           {
             answer--;
-            break;
+            break;  
           }
           
         }
@@ -22,10 +22,5 @@ class Solution76 {
       }
       return answer;
   }
-
-  public static void main(String[] args) {
-    String test = "wahsdf";
-    test.replace("wa", "");
-    System.out.println(test);
-  }
+  
 }
