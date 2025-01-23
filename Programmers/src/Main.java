@@ -2,11 +2,13 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Solution78 sol = new Solution78();
-        String input1 = "abc1Addfggg4556b";
-        String input2 = "abcdef123";
-        System.out.println(Arrays.toString(sol.solution(input1, 6)));
-        System.out.println(Arrays.toString(sol.solution(input2, 3)));
+        Solution79 sol = new Solution79();
+        int[][] input1 = {{1, 4}, {9, 2}, {3, 8}, {11, 6}};
+        System.out.println(sol.solution(input1));
+
+        int[][] input2 = {{3, 5}, {4, 1}, {2, 4}, {5, 10}};
+        System.out.println(sol.solution(input2));
+
 
 
 

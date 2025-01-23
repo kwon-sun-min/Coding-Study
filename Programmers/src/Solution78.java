@@ -17,10 +17,4 @@ class Solution78 {
       
       return answer;
   }
-
-  public static void main(String[] args) {
-    String input1 = "abc1Addfggg4556b";
-    System.out.println(Math.ceil(input1.length()/(double)6));
-    System.out.println(input1.length());
-  }
 }
