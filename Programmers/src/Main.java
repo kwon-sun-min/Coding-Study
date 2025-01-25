@@ -1,12 +1,13 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        Solution80 sol = new Solution80();
-        int[][] input1 = {{1, 1}, {2, 1}, {2, 2}, {1, 2}};
-        int[][] input2 = {{-1, -1}, {1, 1}, {1, -1}, {-1, 1}};
+        Solution81 sol = new Solution81();
 
-        System.out.println(sol.solution(input1));
-        System.out.println(sol.solution(input2));
-
+        String[] input1 = {"left", "right", "up", "right", "right"};
+        int[] board1 = {11, 11};
+        System.out.println(Arrays.toString(sol.solution(input1, board1)));
+        
 
 
 
