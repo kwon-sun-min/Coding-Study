@@ -2,17 +2,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Solution81 sol = new Solution81();
+        Solution82 sol = new Solution82();
 
-        String[] input1 = {"left", "right", "up", "right", "right"};
-        int[] board1 = {11, 11};
-        System.out.println(Arrays.toString(sol.solution(input1, board1)));
-        
-
-
-
-
-
+        System.out.println(sol.solution("olleh", "hello"));
+        System.out.println(sol.solution("allpe", "apple"));
 
     }
 }
