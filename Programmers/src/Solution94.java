@@ -1,6 +1,5 @@
 class Solution94 {
     public int solution(int[] common) {
-        int answer = 0;
         boolean multiple = true;
         int d = 0;
         if(common[0] + common[2] == common[1]*2)
