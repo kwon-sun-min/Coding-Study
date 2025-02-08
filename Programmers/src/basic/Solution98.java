@@ -2,9 +2,13 @@ class Solution98 {
     public int solution(String A, String B) {
         int answer = -1;
 
+        if(A.equals(B))
+        {
+            return 0;
+        }
+
         for (int i = 1; i <= A.length(); i++) 
         {
-            //A = A.charAt(A.length()-i) + A.substring(0, A.length()-1);
             char last = A.charAt(A.length()-1);
             String remind = A.substring(0, A.length()-1);
             A = last + remind;
