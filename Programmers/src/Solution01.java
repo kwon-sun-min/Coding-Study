@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 class Solution01 {
     public int solution(int[] nums) {
         int kind = 0;
@@ -28,6 +30,35 @@ class Solution01 {
         }
         
     }
+        }
+        
+    }
+
+    class Solution012 {
+    public int solution(int[] nums)
+    {
+        int option = nums.length/2;
+
+        HashSet<Integer> list = new HashSet<>();
+        for(int num : nums)
+        {
+            list.add(num);
+        }
+
+        int kind = list.size();
+
+        if(option > kind)
+        {
+            return kind;
+        }
+
+        else
+        {
+            return option;
+        }
+    }
+
+}
 
     public static void main(String[] args) {
         int[] nums = {3,3,3,2,2,2};
