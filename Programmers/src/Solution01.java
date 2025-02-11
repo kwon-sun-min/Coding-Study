@@ -32,7 +32,7 @@ class Solution01 {
     }
         }
         
-    }
+    
 
     class Solution012 {
     public int solution(int[] nums)
@@ -58,7 +58,7 @@ class Solution01 {
         }
     }
 
-}
+
 
     public static void main(String[] args) {
         int[] nums = {3,3,3,2,2,2};
