@@ -1,50 +1,42 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 class Solution07 {
   public int[] solution(int[] progresses, int[] speeds) {
-      int[] time = new int[progresses.length];
-      ArrayList<Integer> list = new ArrayList<>();
-     
-      int index = 1;
+      Queue<Integer> queue = new LinkedList<>();
+      List<Integer> result = new ArrayList<>();
 
-      for (int i = 0; i < progresses.length; i++) 
-      {
-        time[i] = (int)(Math.ceil((100 - progresses[i])/(double)speeds[i]));
-      }
-//
-      for (int i = 1; i < time.length; i++) 
-      {
-        if(time[i-1] < time[i])
-        {
-          list.add(index);
-          index = 1;
-        }
-
-        else
-        {
-          ++index;
-        }
+      // 각 작업이 완료되기까지 걸리는 일 수 계산하여 큐에 저장
+      for (int i = 0; i < progresses.length; i++) {
+          int days = (int) Math.ceil((100.0 - progresses[i]) / speeds[i]);
+          queue.offer(days);
       }
 
-      list.add(index);
-      
+      // 배포 과정
+      while (!queue.isEmpty()) {
+          int current = queue.poll();  // 첫 번째 작업이 완료되는 시점
+          int count = 1;  // 이번 배포에서 몇 개가 배포되는지
 
-      int[] answer = new int[list.size()];
-      for (int i = 0; i < list.size(); i++) 
-      {
-        answer[i] = list.get(i);
+          // 현재 작업이 완료되는 동안 함께 배포할 수 있는 작업 찾기
+          while (!queue.isEmpty() && queue.peek() <= current) {
+              queue.poll();
+              count++;
+          }
+
+          result.add(count);
       }
 
-      
-
-      return answer;
+      // 리스트를 배열로 변환 후 반환
+      return result.stream().mapToInt(i -> i).toArray();
   }
 
   public static void main(String[] args) {
-    int[] progresses = {85, 80, 90, 85};
-    int[] speeds = {5, 5, 5, 5};
-    Solution07 sol = new Solution07();
-    System.out.println(Arrays.toString(sol.solution(progresses, speeds)));
+      int[] progresses = {93, 30, 55};
+      int[] speeds = {1, 30, 5};
+      Solution07 sol = new Solution07();
+      System.out.println(Arrays.toString(sol.solution(progresses, speeds))); // [2, 1]
+
+      int[] progresses2 = {95, 90, 99, 99, 80, 99};
+      int[] speeds2 = {1, 1, 1, 1, 1, 1};
+      System.out.println(Arrays.toString(sol.solution(progresses2, speeds2))); // [1, 3, 2]
   }
 }
