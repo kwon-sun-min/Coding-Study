@@ -1,32 +1,39 @@
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Stack;
+import java.util.PriorityQueue;
 
 class Lab
 {
     public static void main(String[] args) 
     {
-        Stack<Integer> stack = new Stack<>();
-        int[] prices = {1,2,3,2,3};
-        int[] answer = new int[prices.length];     
-
-        for (int i = 1; i < answer.length; i++) 
+        int[] scovile = {1, 2, 3, 9, 10, 12};
+        int k = 7;
+        int result = 0;
+        
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        
+        for (int i = 0; i < scovile.length; i++) 
         {
-            stack.add(prices[i]);
-
-            for (int j = 0; j < stack.size(); j++) 
-            {
-                if(prices[j] > prices[i])
-                {
-                    continue;
-                }
-                answer[j]++;
-
-            }
-            
+            queue.add(scovile[i]);
         }
 
-        System.out.println(Arrays.toString(answer));
-        System.out.println(stack.peek());
+        System.out.println(queue.peek());
+
+        while(queue.peek() < k)
+        {
+            if(queue.size() <= 1)
+            {
+                System.out.println(-1);
+                break;
+            }
+            int first = queue.poll();
+            int second = queue.poll();
+            queue.add(first + second * 2);
+            result++;
+
+        }
+
+        System.out.println(result);
+        System.out.println("sdfj");
     }
+
+    
 }

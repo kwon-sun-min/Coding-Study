@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution10 {
+public class Solution010 {
     
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         int time = 0;
