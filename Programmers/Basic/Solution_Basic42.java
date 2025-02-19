@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution42 {
+class Solution_Basic42 {
   public int[] solution(int[] emergency) {
       int[] answer = new int[emergency.length];
       int[] temp = emergency.clone();

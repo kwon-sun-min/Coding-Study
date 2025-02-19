@@ -1,4 +1,4 @@
-class Solution4 {
+class Solution_Basic04 {
   public int solution(int num1, int num2) {
       int answer = 0;
       if(num1 == num2) {answer = 1;}

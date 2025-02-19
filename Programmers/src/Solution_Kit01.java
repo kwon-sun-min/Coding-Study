@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class Solution01 {
+class Solution_Kit01 {
     public int solution(int[] nums) {
         int kind = 0;
         int option = nums.length/2;
@@ -62,7 +62,7 @@ class Solution01 {
 
     public static void main(String[] args) {
         int[] nums = {3,3,3,2,2,2};
-        Solution01 sol = new Solution01();
+        Solution_Kit01 sol = new Solution_Kit01();
         System.out.println(sol.solution(nums));
     }
 }

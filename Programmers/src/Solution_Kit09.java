@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution09 {
+class Solution_Kit09 {
     public int solution09(int[] priorities, int location) {
         Queue<int[]> queue = new LinkedList<>();
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());

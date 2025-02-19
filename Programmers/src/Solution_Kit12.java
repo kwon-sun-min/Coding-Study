@@ -1,6 +1,6 @@
 import java.util.PriorityQueue;
 
-class TempSolution {
+class Solution_Kit12 {
     public int solution(int[] scoville, int K)
     {
         int result = 0;

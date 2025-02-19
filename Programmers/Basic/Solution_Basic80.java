@@ -1,4 +1,4 @@
-class Solution80 {
+class Solution_Basic80 {
   public int solution(int[][] dots) {
       int answer = 0;
       int width = 0;

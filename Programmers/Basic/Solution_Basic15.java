@@ -1,4 +1,4 @@
-class Solution15 {
+class Solution_Basic15 {
   public int[] solution(int[] num_list) {
       int[] answer = new int[num_list.length];
       

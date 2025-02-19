@@ -1,4 +1,4 @@
-class Solution92 {
+class Solution_Basic92 {
   public int solution(int[][] lines) {
       int[] graph = new int[201];
       int answer = 0;

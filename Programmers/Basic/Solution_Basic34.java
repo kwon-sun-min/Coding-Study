@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution34 {
+class Solution_Basic34 {
   public int solution(int[] array) {
       int answer = 0;
       int count = 0;

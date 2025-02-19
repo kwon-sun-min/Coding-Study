@@ -1,4 +1,4 @@
-class Solution85 {
+class Solution_Basic85 {
   public int solution(int i, int j, int k) {
       int answer = 0;
       for (int l = i; l <= j; l++) 

@@ -1,4 +1,4 @@
-class Solution16 {
+class Solution_Basic16 {
   public int[] solution(int[] num_list) {
       int[] answer = new int[2];
       

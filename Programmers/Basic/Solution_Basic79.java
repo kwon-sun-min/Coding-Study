@@ -1,4 +1,4 @@
-class Solution79 {
+class Solution_Basic79 {
   public int solution(int[][] dots) {
     if(check(dots))
     {

@@ -1,4 +1,4 @@
-class Solution24 {
+class Solution_Basic24 {
   public int solution(int n) {
       int answer = 0;
       

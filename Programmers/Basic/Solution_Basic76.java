@@ -1,4 +1,4 @@
-class Solution76 {
+class Solution_Basic76 {
   public int solution(String[] babbling) {
       String[] word = {"aya", "ye", "woo", "ma"};
       int answer = babbling.length;

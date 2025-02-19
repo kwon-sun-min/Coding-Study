@@ -1,4 +1,4 @@
-class Solution28 {
+class Solution_Basic28 {
   public int solution(int[] array, int n) {
       int answer = 0;
 

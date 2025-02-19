@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution59 {
+class Solution_Basic59 {
   public int solution(int[] sides) {
       int answer = 0;
       int cal = 0;

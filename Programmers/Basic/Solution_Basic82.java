@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution82 {
+class Solution_Basic82 {
   public int solution(String before, String after) {
     char[] beforeArray = before.toCharArray();
     char[] afterArray = after.toCharArray();

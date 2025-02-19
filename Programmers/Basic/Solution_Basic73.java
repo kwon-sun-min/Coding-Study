@@ -1,4 +1,4 @@
-class Solution73 {
+class Solution_Basic73 {
   public int solution(int num, int k) {
       int answer = -1;
       String Stringnum = Integer.toString(num);

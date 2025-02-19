@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution95 {
+class Solution_Basic95 {
     public int[] solution(int[] numlist, int n) {
         int[] answer = new int[numlist.length];
         int temp = 0;
@@ -33,7 +33,7 @@ class Solution95 {
     }
 
     public static void main(String[] args) {
-        Solution95 sol = new Solution95();
+        Solution_Basic95 sol = new Solution_Basic95();
         int[] input1 = {1, 6, 3, 4, 5, 2};
         int[] input2 = {10000,20,36,47,40,6,10,7000};
         System.out.println(Arrays.toString(sol.solution(input1, 4)));

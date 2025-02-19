@@ -1,4 +1,4 @@
-class Solution48 {
+class Solution_Basic48 {
   public int solution(int[] numbers, int k) {
       int answer = 1;
 

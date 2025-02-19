@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-class Solution70 {
+class Solution_Basic70 {
   public LinkedList<Integer> solution(int n) {
       LinkedList<Integer> answer = new LinkedList<Integer>();
       for (int i = 1; i <= n; i++) 

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution89 {
+class Solution_Basic89 {
   public int solution(int[] sides) {
       int answer = 0;
       Arrays.sort(sides);
@@ -25,7 +25,7 @@ class Solution89 {
 
   public static void main(String[] args) {
     int[] list = {1, 2};
-    Solution89 sol = new Solution89();
+    Solution_Basic89 sol = new Solution_Basic89();
     System.out.println(sol.solution(list));
   }
 }

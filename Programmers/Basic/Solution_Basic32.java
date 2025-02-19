@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution32 {
+class Solution_Basic32 {
   
   public int solution(int[] array) {
       Arrays.sort(array);

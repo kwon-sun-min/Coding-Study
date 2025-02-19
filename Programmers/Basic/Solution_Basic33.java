@@ -1,4 +1,4 @@
-class Solution33 {
+class Solution_Basic33 {
   public int[] solution(int n) {
       int index = 0;
       int[] answer = new int[(int)Math.ceil(n/2.0)];

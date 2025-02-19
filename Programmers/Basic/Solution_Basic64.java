@@ -1,4 +1,4 @@
-class Solution64 {
+class Solution_Basic64 {
   public int solution(int order) {
       int answer = 0;
       String data = String.valueOf(order);

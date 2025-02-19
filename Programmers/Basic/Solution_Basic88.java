@@ -1,4 +1,4 @@
-class Solution88 {
+class Solution_Basic88 {
   public int solution(int[][] board) {
       int answer = 0;
       int width = board[0].length-1;
@@ -39,7 +39,7 @@ class Solution88 {
 
   public static void main(String[] args) 
   {
-    Solution88 sol = new Solution88();
+    Solution_Basic88 sol = new Solution_Basic88();
     int[][] input1 = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 1, 0}, {0, 0, 0, 0, 0}};
     System.out.println(sol.solution(input1));
 

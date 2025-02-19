@@ -1,4 +1,4 @@
-class Solution31 {
+class Solution_Basic31 {
   public String solution(String my_string) {
       my_string = my_string.replace("a", "");
       my_string = my_string.replace("e", "");

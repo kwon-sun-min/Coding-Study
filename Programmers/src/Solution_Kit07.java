@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution07 {
+class Solution_Kit07 {
   public int[] solution(int[] progresses, int[] speeds) {
       Queue<Integer> queue = new LinkedList<>();
       List<Integer> result = new ArrayList<>();
@@ -29,7 +29,7 @@ class Solution07 {
   public static void main(String[] args) {
       int[] progresses = {93, 30, 55};
       int[] speeds = {1, 30, 5};
-      Solution07 sol = new Solution07();
+      Solution_Kit07 sol = new Solution_Kit07();
       System.out.println(Arrays.toString(sol.solution(progresses, speeds))); 
 
       int[] progresses2 = {95, 90, 99, 99, 80, 99};

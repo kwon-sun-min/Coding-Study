@@ -1,4 +1,4 @@
-class Solution38 {
+class Solution_Basic38 {
   public int solution(int price) {
       if(100000 <= price && price < 300000)
       {

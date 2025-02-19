@@ -1,4 +1,4 @@
-class Solution91 {
+class Solution_Basic91 {
   public int solution(int n) {
       int answer = 0;
       for (int i = 1; i <= n; i++) 
@@ -14,7 +14,7 @@ class Solution91 {
   }
 
   public static void main(String[] args) {
-    Solution91 sol = new Solution91();
+    Solution_Basic91 sol = new Solution_Basic91();
     System.out.println(sol.solution(3));
   }
 }

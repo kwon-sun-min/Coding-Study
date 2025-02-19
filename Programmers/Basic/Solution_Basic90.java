@@ -1,4 +1,4 @@
-class Solution90 {
+class Solution_Basic90 {
   public int solution(String[] spell, String[] dic) {
       int answer = 2;
 
@@ -33,7 +33,7 @@ class Solution90 {
     String[] spell3 = {"s", "o", "m", "d"};
     String[] dic3 = {"moos", "dzx", "smm", "sunmmo", "som"};
 
-    Solution90 sol = new Solution90();
+    Solution_Basic90 sol = new Solution_Basic90();
     System.out.println(sol.solution(spell1, dic1));
     System.out.println(sol.solution(spell2, dic2));
     System.out.println(sol.solution(spell3, dic3));

@@ -1,4 +1,4 @@
-class Solution58 {
+class Solution_Basic58 {
   public int solution(String s) {
       int answer = 0;
       String[] list = s.split(" ");

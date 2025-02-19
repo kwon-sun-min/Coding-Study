@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-class Solution05 {
+class Solution_Kit05 {
     static class Song
     {
         int id;

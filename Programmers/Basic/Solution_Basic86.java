@@ -1,4 +1,4 @@
-class Solution86 {
+class Solution_Basic86 {
   public String solution(String polynomial) {
 
       int xNum = 0;

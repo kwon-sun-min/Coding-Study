@@ -1,4 +1,4 @@
-public class Solution41 {
+public class Solution_Basic41 {
   public String solution(int age) {
       String answer = "";
       String temp = "";

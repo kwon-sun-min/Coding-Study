@@ -1,4 +1,4 @@
-class Solution46 {
+class Solution_Basic46 {
   public int solution(int balls, int share) {
       long result = 1; 
 

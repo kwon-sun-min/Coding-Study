@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Solution08 {
+class Solution_Kit08 {
     boolean solution(String s) {
         boolean answer = true;
         Stack<Character> stack = new Stack<>();
@@ -36,7 +36,7 @@ class Solution08 {
 
 
     public static void main(String[] args) {
-        Solution08 sol = new Solution08();
+        Solution_Kit08 sol = new Solution_Kit08();
         System.out.println(sol.solution("()()"));
         System.out.println(sol.solution("(())()"));
         System.out.println(sol.solution("()("));

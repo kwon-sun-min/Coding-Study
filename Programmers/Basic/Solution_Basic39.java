@@ -1,4 +1,4 @@
-class Solution39 {
+class Solution_Basic39 {
   public int[] solution(int money) {
       int[] answer = new int[2];
       answer[0] = money / 5500;

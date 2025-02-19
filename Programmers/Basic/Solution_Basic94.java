@@ -1,4 +1,4 @@
-class Solution94 {
+class Solution_Basic94 {
     public int solution(int[] common) {
         boolean multiple = true;
         int d = 0;
@@ -22,7 +22,7 @@ class Solution94 {
     }
 
     public static void main(String[] args) {
-        Solution94 sol = new Solution94();
+        Solution_Basic94 sol = new Solution_Basic94();
         int[] input1 = {4, 16, 64};
         int[] input2 = {1,2,3,4};
         System.out.println(sol.solution(input1));

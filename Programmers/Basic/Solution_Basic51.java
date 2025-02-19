@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution51 {
+class Solution_Basic51 {
   public int solution(int n) {
       int answer = 0;
       boolean[] prime = new boolean[n+1];

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution011 {
+class Solution_Kit11 {
     public int[] solution(int[] prices) {
         int[] answer = new int[prices.length];
 
@@ -28,7 +28,7 @@ class Solution011 {
     public static void main(String[] args) 
     {
         int[] prices = {1, 2, 3, 2, 3};
-        Solution011 sol = new Solution011();
+        Solution_Kit11 sol = new Solution_Kit11();
         System.out.println(Arrays.toString(sol.solution(prices)));
 
     }

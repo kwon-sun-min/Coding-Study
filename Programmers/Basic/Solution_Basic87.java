@@ -1,4 +1,4 @@
-class Solution87 {
+class Solution_Basic87 {
   public int solution(String my_string) {
       int answer = 0;
       String Num = "";
@@ -30,7 +30,7 @@ class Solution87 {
   }
 
   public static void main(String[] args) {
-    Solution87 sol = new Solution87();
+    Solution_Basic87 sol = new Solution_Basic87();
     System.out.println(sol.solution("assdf12f123"));
   }
 }

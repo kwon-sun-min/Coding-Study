@@ -1,4 +1,4 @@
-class Solution71 {
+class Solution_Basic71 {
   public int[] solution(int[] array) {
       int[] answer = new int[2];
       int index = 0;

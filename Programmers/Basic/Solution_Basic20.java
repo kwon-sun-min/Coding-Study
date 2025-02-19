@@ -1,4 +1,4 @@
-class Solution20 {
+class Solution_Basic20 {
   public String solution(String my_string, int n) {
       String answer = "";
 

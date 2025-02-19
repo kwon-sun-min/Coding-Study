@@ -1,4 +1,4 @@
-class Solution60 {
+class Solution_Basic60 {
   public int solution60(int[] array, int height) {
       int answer = 0;
       for (int i = 0; i < array.length; i++) 

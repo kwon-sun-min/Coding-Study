@@ -1,4 +1,4 @@
-class Solution65 {
+class Solution_Basic65 {
   public String solution(String cipher, int code) {
       String answer = "";
       for (int i = code-1; i < cipher.length(); i+=code) 

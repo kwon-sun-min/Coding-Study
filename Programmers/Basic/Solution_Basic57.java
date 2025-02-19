@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-class Solution57 {
+class Solution_Basic57 {
   public LinkedList<Integer> solution(int n) {
       LinkedList<Integer> answer = new LinkedList<Integer>();
 

@@ -1,4 +1,4 @@
-class Solution17 {
+class Solution_Basic17 {
   public int solution(int[] dot) {
       int answer = 0;
       

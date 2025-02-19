@@ -1,4 +1,4 @@
-class Solution27 {
+class Solution_Basic27 {
   public int[] solution(int[] numbers) {
       int[] answer = new int[numbers.length];
 

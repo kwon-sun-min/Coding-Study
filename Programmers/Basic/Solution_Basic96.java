@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution96 {
+class Solution_Basic96 {
     public int[] solution(int[][] score) {
         int[] answer = new int[score.length];
         int[] aver = new int[score.length];
@@ -36,7 +36,7 @@ class Solution96 {
 
     public static void main(String[] args) 
     {
-        Solution96 sol = new Solution96();
+        Solution_Basic96 sol = new Solution_Basic96();
         int[][] input1 = {{80, 70}, {90, 50}, {40, 70}, {50, 80}};
         int[][] input2 = {{80, 70}, {70, 80}, {30, 50}, {90, 100}, {100, 90}, {100, 100}, {10, 30}};
         System.out.println(Arrays.toString(sol.solution(input1)));   

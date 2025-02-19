@@ -1,4 +1,4 @@
-class Solution19 {
+class Solution_Basic19 {
   public int[] solution(int[] numbers, int num1, int num2) {
       int[] answer = new int[num2-num1+1];
 

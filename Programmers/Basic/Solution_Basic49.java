@@ -1,4 +1,4 @@
-class Solution49 {
+class Solution_Basic49 {
   public int[] solution(int[] numbers, String direction) {
       int[] answer = new int[numbers.length];
 

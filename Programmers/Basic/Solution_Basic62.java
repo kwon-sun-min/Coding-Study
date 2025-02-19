@@ -1,4 +1,4 @@
-class Solution62 {
+class Solution_Basic62 {
   public int solution(int[] numbers) {
       int answer = -100000000;
       for (int i = 0; i < numbers.length-1; i++) 

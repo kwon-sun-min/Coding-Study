@@ -1,4 +1,4 @@
-class Solution98 {
+class Solution_Basic98 {
     public int solution(String A, String B) {
         int answer = -1;
 
@@ -26,7 +26,7 @@ class Solution98 {
 
     public static void main(String[] args) 
     {
-        Solution98 sol = new Solution98();
+        Solution_Basic98 sol = new Solution_Basic98();
         System.out.println(sol.solution("hello", "llohe"));
         String temp = "hello";
         temp = temp.charAt(temp.length()-1)+temp;

@@ -1,7 +1,7 @@
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class Solution54 {
+public class Solution_Basic54 {
   public LinkedList<Integer> solution(String my_string) {
       LinkedList<Integer> answer = new LinkedList<>();
 

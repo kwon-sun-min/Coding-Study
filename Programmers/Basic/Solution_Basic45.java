@@ -1,4 +1,4 @@
-class Solution45 {
+class Solution_Basic45 {
   public String solution(String rsp) {
       String answer = "";
       for (int i = 0; i < rsp.length(); i++) 

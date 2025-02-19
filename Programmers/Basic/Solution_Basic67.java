@@ -1,4 +1,4 @@
-class Solution67 {
+class Solution_Basic67 {
   public long solution(String numbers) {
       long answer = 0;
       numbers = numbers.replace("one", "1");

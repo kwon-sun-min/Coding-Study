@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution44 {
+class Solution_Basic44 {
   public String solution(String letter) {
       String answer = "";
       

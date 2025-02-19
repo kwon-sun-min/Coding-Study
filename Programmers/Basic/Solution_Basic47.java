@@ -1,4 +1,4 @@
-class Solution47 {
+class Solution_Basic47 {
   public int[][] solution(int[] num_list, int n) {
       int[][] answer = new int[num_list.length/n][n];
       int count = 0;

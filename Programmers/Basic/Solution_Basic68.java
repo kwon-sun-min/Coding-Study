@@ -1,4 +1,4 @@
-class Solution68 {
+class Solution_Basic68 {
   public String solution(String my_string, int num1, int num2) {
       String answer = "";
       answer += my_string.substring(0, num1);

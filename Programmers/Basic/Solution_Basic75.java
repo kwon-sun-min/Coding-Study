@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution75 {
+class Solution_Basic75 {
   public String solution(String my_string) {
       String answer = "";
       my_string = my_string.toLowerCase();

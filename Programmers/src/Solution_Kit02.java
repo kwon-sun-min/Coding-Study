@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Solution02 {
+class Solution_Kit02 {
     public String solution(String[] participant, String[] completion) {
         HashMap<String, Integer> map = new HashMap<>();
 
@@ -22,7 +22,7 @@ class Solution02 {
     }
 
     public static void main(String[] args) {
-        Solution02 sol = new Solution02();
+        Solution_Kit02 sol = new Solution_Kit02();
         
         String[] participant1 = {"leo", "kiki", "eden"};
         String[] completion1 = {"eden", "kiki"};

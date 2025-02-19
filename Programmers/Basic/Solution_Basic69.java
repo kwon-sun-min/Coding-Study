@@ -1,4 +1,4 @@
-class Solution69 {
+class Solution_Basic69 {
   public String solution(String s) {
       String answer = "";
       int[] alpha = new int[26];

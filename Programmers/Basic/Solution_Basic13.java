@@ -1,4 +1,4 @@
-class Solution13 {
+class Solution_Basic13 {
   public int[] solution(String[] strlist) {
       int[] answer = new int[strlist.length];
 

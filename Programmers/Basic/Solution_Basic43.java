@@ -1,4 +1,4 @@
-class Solution43 {
+class Solution_Basic43 {
   public int solution(int hp) {
       int answer = 0;
       while(hp >= 5)

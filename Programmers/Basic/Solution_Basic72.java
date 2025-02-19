@@ -1,4 +1,4 @@
-class Solution72 {
+class Solution_Basic72 {
   public int solution(String my_string) {
       int answer = 0;
       String num = "";

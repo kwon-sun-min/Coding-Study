@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-class Solution04 {
+class Solution_Kit04 {
     public int solution(String[][] clothes) {
         int answer = 1;
         HashMap<String, Integer> map = new HashMap<>();
@@ -31,7 +31,7 @@ class Solution04 {
 
     public static void main(String[] args) {
         String[][] data = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
-        Solution04 sol = new Solution04();
+        Solution_Kit04 sol = new Solution_Kit04();
         //sol.solution(data);
         System.out.println(sol.solution(data));
     }

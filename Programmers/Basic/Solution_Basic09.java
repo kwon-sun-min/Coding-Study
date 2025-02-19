@@ -1,4 +1,4 @@
-class Solution9 {
+class Solution_Basic09 {
   public int solution(int angle) {
     int answer = -1;
       if(0 < angle && angle < 90){answer = 1;}

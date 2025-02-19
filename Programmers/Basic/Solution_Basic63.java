@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution63 {
+class Solution_Basic63 {
   public int solution(int[] array, int n) {
       int answer = 0;
       int min = 100;

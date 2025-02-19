@@ -1,4 +1,4 @@
-public class Solution40 {
+public class Solution_Basic40 {
   public void solution(int n)
   {
     for (int i = 1; i <= n; i++) 

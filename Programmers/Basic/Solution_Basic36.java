@@ -1,4 +1,4 @@
-class Solution36 {
+class Solution_Basic36 {
   public int GetBCD(int a, int b)
   {
     int temp = 0;

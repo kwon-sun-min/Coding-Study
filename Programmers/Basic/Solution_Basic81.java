@@ -1,4 +1,4 @@
-public class Solution81 {
+public class Solution_Basic81 {
   public int[] solution(String[] keyinput, int[] board) {
       int[] answer = {0, 0};
       for (int i = 0; i < keyinput.length; i++) 

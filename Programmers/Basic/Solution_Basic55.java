@@ -1,4 +1,4 @@
-class Solution55 {
+class Solution_Basic55 {
   public int solution(String my_string) {
       int answer = 0;
 
