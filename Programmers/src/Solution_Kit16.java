@@ -1,12 +1,9 @@
 import java.util.Arrays;
 
-class Lab
-{
-    public static void main(String[] args) 
+public class Solution_Kit16 {
+    public int solution(int[] citations)
     {
-        int answer = 0;
-        int[] citations = {3, 0, 6, 1, 5};
-        Arrays.sort(citations);
+        int answer = -1;
 
         for (int i = 0; i <= 1000; i++) 
         {
@@ -16,28 +13,26 @@ class Lab
 
             for (int j = 0; j < temp.length; j++) 
             {
+
                 if(temp[j] == i)
                 {
-                    int left = j;
-                    int right = citations.length-left;
-
-                    if(right == i)
+                    if(citations.length-j == i)
                     {
-                        answer = i;
+                        return i;
                     }
                 }
+                
             }
-
-
         }
 
-        System.out.println(answer);
+        return answer;
 
-
-        
-
+    }
+    public static void main(String[] args) 
+    {
+        int[] input1 = {0,1,2,3,4,5,6,7,8,9,10,11,22,33};
+        Solution_Kit16 sol = new Solution_Kit16();
+        System.out.println(sol.solution(input1));
         
     }
-
-    
 }
