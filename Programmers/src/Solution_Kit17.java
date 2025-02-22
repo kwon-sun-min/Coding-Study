@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Solution_Kit17 
 {
   public static int[] swap(int[] card)
