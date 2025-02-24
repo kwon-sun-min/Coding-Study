@@ -3,29 +3,20 @@ import java.util.Arrays;
 public class Solution_Kit16 {
     public int solution(int[] citations)
     {
-        int answer = -1;
 
-        for (int i = 0; i <= 1000; i++) 
+        Arrays.sort(citations);
+
+        for (int i = 0; i < citations.length; i++) 
         {
-            int[] temp = Arrays.copyOf(citations, citations.length+1);
-            temp[temp.length-1] = i;
-            Arrays.sort(temp);
-
-            for (int j = 0; j < temp.length; j++) 
+            int h = citations.length - i;
+            if(citations[i] >= h)
             {
-
-                if(temp[j] == i)
-                {
-                    if(citations.length-j == i)
-                    {
-                        return i;
-                    }
-                }
-                
+                return h;
             }
+
         }
 
-        return answer;
+        return 0;
 
     }
     public static void main(String[] args) 
