@@ -15,17 +15,17 @@ public class Solution_Kit18 {
 
     for (int i = 0; i < answers.length; i++) 
     {
-      if(sheet1[i%5] == answers[i])
+      if(sheet1[i%sheet1.length] == answers[i])
       {
         score1++;
       }
 
-      if(sheet2[i%5] == answers[i])
+      if(sheet2[i%sheet2.length] == answers[i])
       {
         score2++;
       }
 
-      if(sheet3[i%5] == answers[i])
+      if(sheet3[i%sheet3.length] == answers[i])
       {
         score3++;
       }

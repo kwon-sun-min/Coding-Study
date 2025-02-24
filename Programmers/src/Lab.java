@@ -1,16 +1,19 @@
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 class Lab
 {
     public static void main(String[] args) 
     {
-        PriorityQueue<Integer> maxQueue = new PriorityQueue<>(Collections.reverseOrder());
-        PriorityQueue<Integer> minQueue = new PriorityQueue<>();
+        String a = "whata";
+        a = a.replaceFirst("a", "/");
 
-        maxQueue.poll();
+        System.out.println(a);
+
+
 
         
     }
