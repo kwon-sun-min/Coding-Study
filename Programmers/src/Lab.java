@@ -1,17 +1,19 @@
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
 
 class Lab
 {
+    public static long num(long k, long y)
+    {
+        return k * y;
+    }
     public static void main(String[] args) 
     {
-        String a = "whata";
-        a = a.replaceFirst("a", "/");
+        long n = 200L;
+        long m = 50000000000000L;
+        n *= m;
 
-        System.out.println(a);
+        System.out.println(num(5000, 2000000));
+
+        System.out.println(n);
 
 
 
