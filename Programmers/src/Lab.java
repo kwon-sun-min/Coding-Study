@@ -1,24 +1,33 @@
+import java.util.Arrays;
 
 class Lab
 {
-    public static long num(long k, long y)
+    static void permutation(int[] arr, int depth, int n, int r)
     {
-        return k * y;
+        if(depth == r)
+        {
+            System.out.println(Arrays.toString(arr));
+            return;
+        }
+
+        for (int i = depth; i < n; i++) 
+        {
+            swap(arr, depth, i);
+            permutation(arr, depth+1, n, r);
+            swap(arr, depth, i);
+        }
     }
+
+    static void swap(int[] arr, int depth, int i)
+    {
+        int temp = arr[depth];
+        arr[depth] = arr[i];
+        arr[i] = temp;
+    }
+
+
     public static void main(String[] args) 
     {
-        long n = 200L;
-        long m = 50000000000000L;
-        n *= m;
-
-        System.out.println(num(5000, 2000000));
-
-        System.out.println(n);
-
-
-
-        
+        permutation(new int[] {1,2,3}, 0, 3, 3);
     }
-
-    
 }
