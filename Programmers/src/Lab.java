@@ -1,18 +1,24 @@
 import java.util.Arrays;
+import java.util.LinkedList;
 
 class Lab
 {
 
     public static void main(String[] args) 
     {
-        int[] list = {1, 2, 3, 4, 5};
-        int[] list2 = new int[list.length];
+        LinkedList<String> list = new LinkedList<>();
 
-        for (int i = 0; i < list.length; i++) 
-        {
-            list2[i] = list[list.length -1 -i];
-        }
+        String[] alpha = new String[] {"A", "E", "I", "O", "U"};
 
-        System.out.println(Arrays.toString(list2));
+        String word = "";
+
+        list.add(alpha[0]);
+        list.add(alpha[1]);
+        list.add(alpha[2]);
+        list.add(alpha[3]);
+        list.add(alpha[4]);
+
+
+        
     }
 }
