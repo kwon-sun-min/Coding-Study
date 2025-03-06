@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solutio84 {
+class Solution84 {
     public String solution(String[] id_pw, String[][] db) {
         for (int i = 0; i < db.length; i++) 
         {

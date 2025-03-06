@@ -9,6 +9,7 @@ public class Algorithm02
 
     for (int i = 0; i < input.length(); i++) 
     {
+
       if(65 <= (int)input.charAt(i) && (int)input.charAt(i) <= 90)
       {
         answer += Character.toLowerCase(input.charAt(i));
@@ -29,6 +30,7 @@ public class Algorithm02
 
     for(char x : input.toCharArray())
     {
+
       if(Character.isLowerCase(x))
       {
         answer += Character.toUpperCase(x);
@@ -54,3 +56,8 @@ public class Algorithm02
   }
   
 }
+
+/*
+2. 대소문자 변환
+https://cote.inflearn.com/contest/10/problem/01-02
+ */
