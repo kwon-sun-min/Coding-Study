@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Solution_Kit22 
 {
     static int answer = -1;
