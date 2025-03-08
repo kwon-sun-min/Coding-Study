@@ -28,7 +28,6 @@ public class Algorithm04
   {
     LinkedList<String> answer = new LinkedList<>();
     
-
     for(String word : words)
     {
       String x = new StringBuilder(word).reverse().toString();
@@ -56,3 +55,9 @@ public class Algorithm04
   }
   
 }
+
+
+/*
+4. 단어 뒤집기
+https://cote.inflearn.com/contest/10/problem/01-04
+ */
