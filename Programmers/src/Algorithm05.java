@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Algorithm05 
@@ -77,3 +76,8 @@ public class Algorithm05
   }
   
 }
+
+/*
+5. 특정 문자 뒤집기
+https://cote.inflearn.com/contest/10/problem/01-05
+ */
