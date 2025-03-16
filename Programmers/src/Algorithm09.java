@@ -35,6 +35,9 @@ public class Algorithm09
         Scanner kb = new Scanner(System.in);
         System.out.println(Solution02(kb.nextLine()));
     }
-
-    
 }
+
+/*
+9. 숫자만 추출
+https://cote.inflearn.com/contest/10/problem/01-09
+ */

@@ -1,13 +1,18 @@
+import java.util.Arrays;
 
 class Lab
 {
 
     public static void main(String[] args) 
     {
-        String temp = "abcde";
-        temp = temp.toUpperCase();
-        temp = temp.toLowerCase();
-        System.out.println(temp);
+        String temp = "teachermode";
+        StringBuilder temp2 = new StringBuilder(temp);
+        String e = "e";
+
+        temp2.indexOf(e);
+        System.out.println(temp2.indexOf(" "));
+
+
 
 
     }
