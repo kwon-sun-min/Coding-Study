@@ -5,12 +5,13 @@ class Lab
 
     public static void main(String[] args) 
     {
-        String temp = "teachermode";
-        StringBuilder temp2 = new StringBuilder(temp);
-        String e = "e";
+        char x = 98;
+        System.out.println(x);
+        System.out.println("d");
 
-        temp2.indexOf(e);
-        System.out.println(temp2.indexOf(" "));
+        String temp = "101";
+        System.out.println(Integer.parseInt(temp, 2));
+        System.out.println((int)'*');
 
 
 
