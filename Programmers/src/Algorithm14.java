@@ -30,8 +30,11 @@ public class Algorithm14
       students[i] = kb.nextInt();
     }
 
-    System.out.println(Solution01(num, students));
-
-    
+    System.out.println(Solution01(num, students));    
   }
 }
+
+/*
+14. 보이는 학생
+https://cote.inflearn.com/contest/10/problem/02-02
+ */
